@@ -7,6 +7,3 @@ variable "name" {
   description = "Resource Group Name"
 }
 
-variable "tags" {
-  description = "Environment tag for the resource group (i.e. 'Production')"
-}
