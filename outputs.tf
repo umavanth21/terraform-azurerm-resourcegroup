@@ -1,3 +1,4 @@
-output "res_group_id" {
-  value = "${azurerm_resource_group.res_group.id}"
+output "resource_group_name" {
+  value = data.resource_group_name
 }
+
