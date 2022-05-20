@@ -20,5 +20,7 @@ provider "azurerm" {
 }
 
 data "azurerm_resource_group" "hcmxexample" {
-  name     = var.resource_group_name
+  name  = var.resource_group_name
+  
 }
+
