@@ -3,7 +3,7 @@ variable "location" {
   default     = "West US"
 }
 
-variable "name" {
+variable "resource_group_name" {
   description = "Resource Group Name"
 }
 
