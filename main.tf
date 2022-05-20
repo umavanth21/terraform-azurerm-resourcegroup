@@ -19,7 +19,7 @@ provider "azurerm" {
   tenant_id       = var.tenant_id
 }
 
-data "azurerm_resource_group" "hcmxexample" {
+resource "azurerm_resource_group" "hcmxexample" {
   name  = var.resource_group_name
   
 }
