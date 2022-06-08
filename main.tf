@@ -25,7 +25,7 @@ resource "random_string" "random_suffix" {
 	override_special = "/@$"
 }
 
-name ="hcmxrg-${random_string.random_suffix.result}
+
 resource "azurerm_resource_group" "hcmxexample" {
 rg_name ="hcmxrg-${random_string.random_suffix.result}
   name  = rg_name
