@@ -19,8 +19,16 @@ provider "azurerm" {
   tenant_id       = var.tenant_id
 }
 
+resource "random_string" "random_suffix" {
+	length = 5
+	special = false
+	override_special = "/@$"
+}
+
+name ="hcmxrg-${random_string.random_suffix.result}
 resource "azurerm_resource_group" "hcmxexample" {
-  name  = var.resource_group_name
+rg_name ="hcmxrg-${random_string.random_suffix.result}
+  name  = rg_name
   location            = var.location
   
 }
