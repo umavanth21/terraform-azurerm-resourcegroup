@@ -3,9 +3,7 @@ variable "location" {
   default     = "West US"
 }
 
-variable "resource_group_name" {
-  description = "Resource Group Name"
-}
+
 variable "subscription_id" {
  default = "subscription_id"
   }
