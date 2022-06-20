@@ -15,5 +15,4 @@ variable "tenant_id" {
   }
 
 variable "client_secret" {
-  default = "client_secret"
-  }
+    }
