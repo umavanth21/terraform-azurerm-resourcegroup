@@ -3,15 +3,15 @@ variable "location" {
   default     = "West US"
 }
 variable "subscription_id" {
- default = "subscription_id"
+ 
   }
 
 variable "client_id" {
- default = "client_id"
+ 
   }
 
 variable "tenant_id" {
-  default = "tenant_id"
+  
   }
 
 variable "client_secret" {
