@@ -1,6 +1,6 @@
 variable "location" {
   description = "Resource Group Location changed"
-  default     = "West US"
+  default     = "East US"
 }
 variable "subscription_id" {
  
