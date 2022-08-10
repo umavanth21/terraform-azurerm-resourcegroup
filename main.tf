@@ -33,7 +33,7 @@ resource "azurerm_resource_group" "hcmx-rg" {
  location            = var.location
  tags = {
     Environment = "Terraform"
-    Team        = "DevOps"
+    Team        = "HCMX"
   }
 }
 
