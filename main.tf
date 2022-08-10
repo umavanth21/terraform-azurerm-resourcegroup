@@ -17,6 +17,12 @@ provider "azurerm" {
   client_id       = var.client_id
   client_secret   = var.client_secret
   tenant_id       = var.tenant_id
+	
+default_tags {
+   tags = {
+     Environment = "Test"
+     Project     = "Test"
+   } }
 }
 
 resource "random_string" "random_suffix" {
@@ -31,9 +37,4 @@ resource "azurerm_resource_group" "hcmx-rg" {
  location            = var.location
   
 }
-default_tags {
-   tags = {
-     Environment = "Test"
-     Project     = "Test"
-   }
- }
+
