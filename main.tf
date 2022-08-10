@@ -31,4 +31,9 @@ resource "azurerm_resource_group" "hcmx-rg" {
  location            = var.location
   
 }
-
+default_tags {
+   tags = {
+     Environment = "Test"
+     Project     = "Test"
+   }
+ }
