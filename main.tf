@@ -22,7 +22,8 @@ default_tags {
    tags = {
      Environment = "Test"
      Project     = "Test"
-   } }
+   } 
+}
 }
 
 resource "random_string" "random_suffix" {
