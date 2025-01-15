@@ -28,7 +28,7 @@ resource "random_string" "random_suffix" {
 }
 
 
-resource "azurerm_resource_group" "hcmx-rg" {
+resource "azurerm_resource_group" "best-rg" {
   name ="hcmx-rg-${random_string.random_suffix.result}"
  location            = var.location
  tags = {
